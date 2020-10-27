@@ -82,14 +82,14 @@
                 <div class="row">
     <div class="col-sm-4">
         <table class="table table-condensed table-hover table-striped table-bordered">
-            <tr><td>Lambdas</td><td>5</td></tr>
-            <tr><td>Security</td><td>8</td></tr>
+            <tr><td>Lambdas</td><td>1</td></tr>
+            <tr><td>Security</td><td>2</td></tr>
         </table>
     </div>
     <div class="col-sm-4">
         <table class="table table-condensed table-hover table-striped table-bordered">
             <tr><td>Layers</td><td>0</td></tr>
-            <tr><td>Runtimes</td><td>5</td></tr>
+            <tr><td>Runtimes</td><td>1</td></tr>
         </table>
     </div>
     <div class="col-sm-4">
@@ -108,8 +108,8 @@
     </tr>
     <tr>
         <td><table class="table table-condensed table-hover table-striped"><tr>
-    <td>low</td>
-    <td>8</td>
+    <td>info</td>
+    <td>2</td>
 </tr></table></td>
         <td><table class="table table-condensed table-hover table-striped"></table></td>
         <td><table class="table table-condensed table-hover table-striped"><tr>
@@ -117,13 +117,7 @@
     <td>2</td>
 </tr></table></td>
         <td><table class="table table-condensed table-hover table-striped"><tr>
-    <td>python3.8</td>
-    <td>3</td>
-</tr><tr>
     <td>nodejs12.x</td>
-    <td>1</td>
-</tr><tr>
-    <td>python3.6</td>
     <td>1</td>
 </tr></table></td>
     </tr>
@@ -149,52 +143,16 @@
     </thead>
     <tbody>
         <tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-    <td><a href="#e1148ad3b63e615d0852600948794145" data-toggle="collapse" data-target="#e1148ad3b63e615d0852600948794145-json">arn:aws:lambda:us-east-1:549087074545:function:Compare</a></td>
+    <td><h4><span class="label label-info">info</span></h4></td>
+    <td>Function policy is not defined</td>
+    <td>arn:aws:lambda:us-east-1:549087074545:function:Vulnerable-Demo</td>
+    <td><a href="#7c48b17fd6d23f769302d57fb511e175" data-toggle="collapse" data-target="#7c48b17fd6d23f769302d57fb511e175-json">arn:aws:lambda:us-east-1:549087074545:function:Vulnerable-Demo</a></td>
 </tr>
 <tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:Compare</td>
-    <td><a href="#e1148ad3b63e615d0852600948794145" data-toggle="collapse" data-target="#e1148ad3b63e615d0852600948794145-json">arn:aws:lambda:us-east-1:549087074545:function:Compare</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-    <td><a href="#69e5987958609eaac06b05f37a1faa79" data-toggle="collapse" data-target="#69e5987958609eaac06b05f37a1faa79-json">arn:aws:lambda:us-east-1:549087074545:function:XMLReport</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:XMLReport</td>
-    <td><a href="#69e5987958609eaac06b05f37a1faa79" data-toggle="collapse" data-target="#69e5987958609eaac06b05f37a1faa79-json">arn:aws:lambda:us-east-1:549087074545:function:XMLReport</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-    <td><a href="#f2162ee0e2518c8ba29bcabd72db4579" data-toggle="collapse" data-target="#f2162ee0e2518c8ba29bcabd72db4579-json">arn:aws:lambda:us-east-1:549087074545:function:InternLambda</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:InternLambda</td>
-    <td><a href="#f2162ee0e2518c8ba29bcabd72db4579" data-toggle="collapse" data-target="#f2162ee0e2518c8ba29bcabd72db4579-json">arn:aws:lambda:us-east-1:549087074545:function:InternLambda</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-    <td><a href="#f63b9853c6888965eeacf27ba4540ab3" data-toggle="collapse" data-target="#f63b9853c6888965eeacf27ba4540ab3-json">arn:aws:lambda:us-east-1:549087074545:function:demo1</a></td>
-</tr>
-<tr>
-    <td><h4><span class="label label-low">low</span></h4></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:demo1</td>
-    <td><a href="#f63b9853c6888965eeacf27ba4540ab3" data-toggle="collapse" data-target="#f63b9853c6888965eeacf27ba4540ab3-json">arn:aws:lambda:us-east-1:549087074545:function:demo1</a></td>
+    <td><h4><span class="label label-info">info</span></h4></td>
+    <td>Use policy Conditions for extra security in Role Policy AWSLambdaBasicExecutionRole-75ef18ef-919e-4a88-8cce-843673ff5996</td>
+    <td>arn:aws:iam::549087074545:role/service-role/Vulnerable-Demo-role-p102y8jy</td>
+    <td><a href="#7c48b17fd6d23f769302d57fb511e175" data-toggle="collapse" data-target="#7c48b17fd6d23f769302d57fb511e175-json">arn:aws:lambda:us-east-1:549087074545:function:Vulnerable-Demo</a></td>
 </tr>
 
     </tbody>
@@ -240,139 +198,7 @@
         </tr>
     </thead>
     <tbody>
-        <tr data-toggle="collapse" data-target="#e1148ad3b63e615d0852600948794145-json">
-    <td id="e1148ad3b63e615d0852600948794145" colspan="2">arn:aws:lambda:us-east-1:549087074545:function:Compare</td>
-    <td>us-east-1</td>
-    <td>python3.8</td>
-</tr>
-<tr class="collapse" id="e1148ad3b63e615d0852600948794145-json">
-    <td colspan="4">
-        <table class="table table-condensed">
-            <tbody>
-                <tr><td>ARN</td><td colspan="3">arn:aws:lambda:us-east-1:549087074545:function:Compare</td></tr>
-                <tr><td>Name</td><td colspan="3">Compare</td></tr>
-                <tr><td>Description</td><td colspan="3"></td></tr>
-                <tr><td>Region</td><td colspan="3">us-east-1</td></tr>
-                <tr><td>Runtime</td><td colspan="3">python3.8</td></tr>
-                <tr><td>Handler</td><td colspan="3">lambda_function.lambda_handler</td></tr>
-                <tr><td>Role</td><td colspan="3">arn:aws:iam::549087074545:role/LambdaRole1</td></tr>
-                <tr><td>KMS</td><td colspan="3"></td></tr>
-                <tr><td>Layers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Triggers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Resources (1)</td><td colspan="3">*</td></tr>
-                <tr><td>Security (2)</td><td colspan="3">
-                    <table class="table table-condensed">
-                        <thead>
-                            <th>Level</th>
-                            <th>Text</th>
-                            <th>Where</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-</tr><tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:Compare</td>
-</tr>
-                        </tbody>
-                    </table>
-                </td></tr>
-                <tr><td>Function policy</td><td colspan="3"><pre>{}</pre></td></tr>
-                <tr><td>Execution role policy</td><td colspan="3"><pre>{
-    "roleName": "LambdaRole1",
-    "policies": [
-        {
-            "document": {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Effect": "Allow",
-                        "Action": "*",
-                        "Resource": "*"
-                    }
-                ]
-            },
-            "name": "AdministratorAccess",
-            "arn": "arn:aws:iam::aws:policy/AdministratorAccess",
-            "type": "managed"
-        }
-    ]
-}</pre></td></tr>
-                <tr><td>KMS policies</td><td colspan="3"><pre>{}</pre></td></tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
-<tr data-toggle="collapse" data-target="#69e5987958609eaac06b05f37a1faa79-json">
-    <td id="69e5987958609eaac06b05f37a1faa79" colspan="2">arn:aws:lambda:us-east-1:549087074545:function:XMLReport</td>
-    <td>us-east-1</td>
-    <td>python3.8</td>
-</tr>
-<tr class="collapse" id="69e5987958609eaac06b05f37a1faa79-json">
-    <td colspan="4">
-        <table class="table table-condensed">
-            <tbody>
-                <tr><td>ARN</td><td colspan="3">arn:aws:lambda:us-east-1:549087074545:function:XMLReport</td></tr>
-                <tr><td>Name</td><td colspan="3">XMLReport</td></tr>
-                <tr><td>Description</td><td colspan="3"></td></tr>
-                <tr><td>Region</td><td colspan="3">us-east-1</td></tr>
-                <tr><td>Runtime</td><td colspan="3">python3.8</td></tr>
-                <tr><td>Handler</td><td colspan="3">lambda_function.lambda_handler</td></tr>
-                <tr><td>Role</td><td colspan="3">arn:aws:iam::549087074545:role/LambdaRole1</td></tr>
-                <tr><td>KMS</td><td colspan="3"></td></tr>
-                <tr><td>Layers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Triggers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Resources (1)</td><td colspan="3">*</td></tr>
-                <tr><td>Security (2)</td><td colspan="3">
-                    <table class="table table-condensed">
-                        <thead>
-                            <th>Level</th>
-                            <th>Text</th>
-                            <th>Where</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-</tr><tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:XMLReport</td>
-</tr>
-                        </tbody>
-                    </table>
-                </td></tr>
-                <tr><td>Function policy</td><td colspan="3"><pre>{}</pre></td></tr>
-                <tr><td>Execution role policy</td><td colspan="3"><pre>{
-    "roleName": "LambdaRole1",
-    "policies": [
-        {
-            "document": {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Effect": "Allow",
-                        "Action": "*",
-                        "Resource": "*"
-                    }
-                ]
-            },
-            "name": "AdministratorAccess",
-            "arn": "arn:aws:iam::aws:policy/AdministratorAccess",
-            "type": "managed"
-        }
-    ]
-}</pre></td></tr>
-                <tr><td>KMS policies</td><td colspan="3"><pre>{}</pre></td></tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
-<tr data-toggle="collapse" data-target="#7c48b17fd6d23f769302d57fb511e175-json">
+        <tr data-toggle="collapse" data-target="#7c48b17fd6d23f769302d57fb511e175-json">
     <td id="7c48b17fd6d23f769302d57fb511e175" colspan="2">arn:aws:lambda:us-east-1:549087074545:function:Vulnerable-Demo</td>
     <td>us-east-1</td>
     <td>nodejs12.x</td>
@@ -392,7 +218,7 @@
                 <tr><td>Layers (0)</td><td colspan="3"></td></tr>
                 <tr><td>Triggers (0)</td><td colspan="3"></td></tr>
                 <tr><td>Resources (1)</td><td colspan="3">logs</td></tr>
-                <tr><td>Security (0)</td><td colspan="3">
+                <tr><td>Security (2)</td><td colspan="3">
                     <table class="table table-condensed">
                         <thead>
                             <th>Level</th>
@@ -400,7 +226,15 @@
                             <th>Where</th>
                         </thead>
                         <tbody>
-                            
+                            <tr>
+    <td><span class="label label-info">info</span></td>
+    <td>Function policy is not defined</td>
+    <td>arn:aws:lambda:us-east-1:549087074545:function:Vulnerable-Demo</td>
+</tr><tr>
+    <td><span class="label label-info">info</span></td>
+    <td>Use policy Conditions for extra security in Role Policy AWSLambdaBasicExecutionRole-75ef18ef-919e-4a88-8cce-843673ff5996</td>
+    <td>arn:aws:iam::549087074545:role/service-role/Vulnerable-Demo-role-p102y8jy</td>
+</tr>
                         </tbody>
                     </table>
                 </td></tr>
@@ -431,138 +265,6 @@
             },
             "name": "AWSLambdaBasicExecutionRole-75ef18ef-919e-4a88-8cce-843673ff5996",
             "arn": "arn:aws:iam::549087074545:policy/service-role/AWSLambdaBasicExecutionRole-75ef18ef-919e-4a88-8cce-843673ff5996",
-            "type": "managed"
-        }
-    ]
-}</pre></td></tr>
-                <tr><td>KMS policies</td><td colspan="3"><pre>{}</pre></td></tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
-<tr data-toggle="collapse" data-target="#f2162ee0e2518c8ba29bcabd72db4579-json">
-    <td id="f2162ee0e2518c8ba29bcabd72db4579" colspan="2">arn:aws:lambda:us-east-1:549087074545:function:InternLambda</td>
-    <td>us-east-1</td>
-    <td>python3.6</td>
-</tr>
-<tr class="collapse" id="f2162ee0e2518c8ba29bcabd72db4579-json">
-    <td colspan="4">
-        <table class="table table-condensed">
-            <tbody>
-                <tr><td>ARN</td><td colspan="3">arn:aws:lambda:us-east-1:549087074545:function:InternLambda</td></tr>
-                <tr><td>Name</td><td colspan="3">InternLambda</td></tr>
-                <tr><td>Description</td><td colspan="3"></td></tr>
-                <tr><td>Region</td><td colspan="3">us-east-1</td></tr>
-                <tr><td>Runtime</td><td colspan="3">python3.6</td></tr>
-                <tr><td>Handler</td><td colspan="3">lambda_function.lambda_handler</td></tr>
-                <tr><td>Role</td><td colspan="3">arn:aws:iam::549087074545:role/LambdaRole1</td></tr>
-                <tr><td>KMS</td><td colspan="3"></td></tr>
-                <tr><td>Layers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Triggers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Resources (1)</td><td colspan="3">*</td></tr>
-                <tr><td>Security (2)</td><td colspan="3">
-                    <table class="table table-condensed">
-                        <thead>
-                            <th>Level</th>
-                            <th>Text</th>
-                            <th>Where</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-</tr><tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:InternLambda</td>
-</tr>
-                        </tbody>
-                    </table>
-                </td></tr>
-                <tr><td>Function policy</td><td colspan="3"><pre>{}</pre></td></tr>
-                <tr><td>Execution role policy</td><td colspan="3"><pre>{
-    "roleName": "LambdaRole1",
-    "policies": [
-        {
-            "document": {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Effect": "Allow",
-                        "Action": "*",
-                        "Resource": "*"
-                    }
-                ]
-            },
-            "name": "AdministratorAccess",
-            "arn": "arn:aws:iam::aws:policy/AdministratorAccess",
-            "type": "managed"
-        }
-    ]
-}</pre></td></tr>
-                <tr><td>KMS policies</td><td colspan="3"><pre>{}</pre></td></tr>
-            </tbody>
-        </table>
-    </td>
-</tr>
-<tr data-toggle="collapse" data-target="#f63b9853c6888965eeacf27ba4540ab3-json">
-    <td id="f63b9853c6888965eeacf27ba4540ab3" colspan="2">arn:aws:lambda:us-east-1:549087074545:function:demo1</td>
-    <td>us-east-1</td>
-    <td>python3.8</td>
-</tr>
-<tr class="collapse" id="f63b9853c6888965eeacf27ba4540ab3-json">
-    <td colspan="4">
-        <table class="table table-condensed">
-            <tbody>
-                <tr><td>ARN</td><td colspan="3">arn:aws:lambda:us-east-1:549087074545:function:demo1</td></tr>
-                <tr><td>Name</td><td colspan="3">demo1</td></tr>
-                <tr><td>Description</td><td colspan="3"></td></tr>
-                <tr><td>Region</td><td colspan="3">us-east-1</td></tr>
-                <tr><td>Runtime</td><td colspan="3">python3.8</td></tr>
-                <tr><td>Handler</td><td colspan="3">lambda_function.lambda_handler</td></tr>
-                <tr><td>Role</td><td colspan="3">arn:aws:iam::549087074545:role/LambdaRole1</td></tr>
-                <tr><td>KMS</td><td colspan="3"></td></tr>
-                <tr><td>Layers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Triggers (0)</td><td colspan="3"></td></tr>
-                <tr><td>Resources (1)</td><td colspan="3">*</td></tr>
-                <tr><td>Security (2)</td><td colspan="3">
-                    <table class="table table-condensed">
-                        <thead>
-                            <th>Level</th>
-                            <th>Text</th>
-                            <th>Where</th>
-                        </thead>
-                        <tbody>
-                            <tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Unrestricted Action * in Role Policy AdministratorAccess<br>https://docs.aws.amazon.com/IAM/latest/UserGuide/best-practices.html#grant-least-privilege</td>
-    <td>arn:aws:iam::549087074545:role/LambdaRole1</td>
-</tr><tr>
-    <td><span class="label label-low">low</span></td>
-    <td>Function activity is not monitored by CloudWatch due to missing logs permissions</td>
-    <td>arn:aws:lambda:us-east-1:549087074545:function:demo1</td>
-</tr>
-                        </tbody>
-                    </table>
-                </td></tr>
-                <tr><td>Function policy</td><td colspan="3"><pre>{}</pre></td></tr>
-                <tr><td>Execution role policy</td><td colspan="3"><pre>{
-    "roleName": "LambdaRole1",
-    "policies": [
-        {
-            "document": {
-                "Version": "2012-10-17",
-                "Statement": [
-                    {
-                        "Effect": "Allow",
-                        "Action": "*",
-                        "Resource": "*"
-                    }
-                ]
-            },
-            "name": "AdministratorAccess",
-            "arn": "arn:aws:iam::aws:policy/AdministratorAccess",
             "type": "managed"
         }
     ]
@@ -1114,10 +816,10 @@ Highcharts.chart('stats-runtimes', {
     height: 230
   },
   title: {
-    text: 'runtimes (5)'
+    text: 'runtimes (1)'
   },
   tooltip: {
-    pointFormat: '<b>{point.y} / 5</b> ({point.percentage:.1f}%)'
+    pointFormat: '<b>{point.y} / 1</b> ({point.percentage:.1f}%)'
   },
   plotOptions: {
     pie: {
@@ -1133,9 +835,9 @@ Highcharts.chart('stats-runtimes', {
     }
   },
   series: [{
-    name: 'runtimes (5)',
+    name: 'runtimes (1)',
     colorByPoint: true,
-    data: [{"name": "python3.8", "y": 3}, {"name": "nodejs12.x", "y": 1}, {"name": "python3.6", "y": 1}]
+    data: [{"name": "nodejs12.x", "y": 1}]
   }]
 });
 
@@ -1216,10 +918,10 @@ Highcharts.chart('stats-security', {
     height: 230
   },
   title: {
-    text: 'security (8)'
+    text: 'security (2)'
   },
   tooltip: {
-    pointFormat: '<b>{point.y} / 8</b> ({point.percentage:.1f}%)'
+    pointFormat: '<b>{point.y} / 2</b> ({point.percentage:.1f}%)'
   },
   plotOptions: {
     pie: {
@@ -1235,9 +937,9 @@ Highcharts.chart('stats-security', {
     }
   },
   series: [{
-    name: 'security (8)',
+    name: 'security (2)',
     colorByPoint: true,
-    data: [{"name": "low", "y": 8}]
+    data: [{"name": "info", "y": 2}]
   }]
 });
 

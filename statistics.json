@@ -1,18 +1,16 @@
 {
-    "lambdas": 5,
+    "lambdas": 1,
     "layers": 0,
     "regions": {
-        "count": 5,
+        "count": 1,
         "items": {
-            "us-east-1": 5
+            "us-east-1": 1
         }
     },
     "runtimes": {
-        "count": 5,
+        "count": 1,
         "items": {
-            "python3.8": 3,
-            "nodejs12.x": 1,
-            "python3.6": 1
+            "nodejs12.x": 1
         }
     },
     "triggers": {
@@ -26,10 +24,9 @@
         }
     },
     "security": {
-        "count": 22,
+        "count": 2,
         "items": {
-            "info": 14,
-            "low": 8
+            "info": 2
         }
     }
 }
