@@ -1,4 +1,4 @@
-[2020-10-27 09:54] [af-south-1]
+[2020-10-27 15:53] [af-south-1]
 Traceback (most recent call last):
   File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/__init__.py", line 89, in get_usage
     settings = client.get_account_settings()
@@ -8,7 +8,7 @@ Traceback (most recent call last):
     raise error_class(parsed_response, operation_name)
 botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the GetAccountSettings operation: The security token included in the request is invalid
 
-[2020-10-27 09:54] [ap-east-1]
+[2020-10-27 15:53] [ap-east-1]
 Traceback (most recent call last):
   File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/__init__.py", line 89, in get_usage
     settings = client.get_account_settings()
@@ -18,7 +18,7 @@ Traceback (most recent call last):
     raise error_class(parsed_response, operation_name)
 botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the GetAccountSettings operation: The security token included in the request is invalid
 
-[2020-10-27 09:54] [eu-south-1]
+[2020-10-27 15:54] [eu-south-1]
 Traceback (most recent call last):
   File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/__init__.py", line 89, in get_usage
     settings = client.get_account_settings()
@@ -28,7 +28,7 @@ Traceback (most recent call last):
     raise error_class(parsed_response, operation_name)
 botocore.exceptions.ClientError: An error occurred (UnrecognizedClientException) when calling the GetAccountSettings operation: The security token included in the request is invalid
 
-[2020-10-27 09:54] [me-south-1]
+[2020-10-27 15:54] [me-south-1]
 Traceback (most recent call last):
   File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/__init__.py", line 89, in get_usage
     settings = client.get_account_settings()
