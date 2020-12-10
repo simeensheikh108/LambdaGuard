@@ -19,27 +19,29 @@
             "--json",
             "--output",
             "/app/reports/source-js-report.json",
-            "/app/bad/payloads/cookie.js",
-            "/app/bad/payloads/keylogger.js",
-            "/app/bad/payloads/payload.js",
-            "/app/good/payloads/cookie.js",
-            "/app/good/payloads/keylogger.js",
-            "/app/good/payloads/payload.js"
+            "/app/dvwa/js/add_event_listeners.js",
+            "/app/dvwa/js/dvwaPage.js",
+            "/app/external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Printer/ConfigForm.js",
+            "/app/vulnerabilities/csp/source/high.js",
+            "/app/vulnerabilities/csp/source/impossible.js",
+            "/app/vulnerabilities/javascript/source/high.js",
+            "/app/vulnerabilities/javascript/source/high_unobfuscated.js",
+            "/app/vulnerabilities/javascript/source/medium.js"
           ],
           "executionSuccessful": true,
-          "commandLine": "--json --output /app/reports/source-js-report.json /app/bad/payloads/cookie.js /app/bad/payloads/keylogger.js /app/bad/payloads/payload.js /app/good/payloads/cookie.js /app/good/payloads/keylogger.js /app/good/payloads/payload.js",
-          "endTimeUtc": "2020-11-03T07:57:19Z",
+          "commandLine": "--json --output /app/reports/source-js-report.json /app/dvwa/js/add_event_listeners.js /app/dvwa/js/dvwaPage.js /app/external/phpids/0.6/lib/IDS/vendors/htmlpurifier/HTMLPurifier/Printer/ConfigForm.js /app/vulnerabilities/csp/source/high.js /app/vulnerabilities/csp/source/impossible.js /app/vulnerabilities/javascript/source/high.js /app/vulnerabilities/javascript/source/high_unobfuscated.js /app/vulnerabilities/javascript/source/medium.js",
+          "endTimeUtc": "2020-12-10T14:07:05Z",
           "workingDirectory": {
-            "uri": "file:///home/ec2-user/vulnerableapps/vulpy"
+            "uri": "file:///home/ec2-user/vulnerableapps/DVWA"
           }
         }
       },
       "invocations": [
         {
           "executionSuccessful": true,
-          "endTimeUtc": "2020-11-03T07:57:19Z",
+          "endTimeUtc": "2020-12-10T14:07:05Z",
           "workingDirectory": {
-            "uri": "file:///home/ec2-user/vulnerableapps/vulpy"
+            "uri": "file:///home/ec2-user/vulnerableapps/DVWA"
           }
         }
       ],
@@ -57,13 +59,13 @@
         "description": {
           "text": "Static Analysis Security Test results using @ShiftLeft/sast-scan"
         },
-        "guid": "5169049b-e688-47ae-9b23-e5f8fcbc2412"
+        "guid": "ec6a54cb-9bdd-4af8-91e6-91f19901b889"
       },
       "versionControlProvenance": [
         {
           "branch": "master",
-          "repositoryUri": "https://github.com/fportantier/vulpy",
-          "revisionId": "5249cc8b05a1c37f6b2f757b1cf16a509c327122"
+          "repositoryUri": "https://github.com/digininja/DVWA",
+          "revisionId": "ba23da2d1808f6e7df004b304c2aea92442092d3"
         }
       ]
     }
@@ -72,8 +74,8 @@
   "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
   "inlineExternalProperties": [
     {
-      "guid": "5169049b-e688-47ae-9b23-e5f8fcbc2412",
-      "runGuid": "30851219-8a74-459c-ba22-ce15239ebc16"
+      "guid": "ec6a54cb-9bdd-4af8-91e6-91f19901b889",
+      "runGuid": "8110d826-0d93-4e3c-9b42-07d41cbbf7d1"
     }
   ]
 }
