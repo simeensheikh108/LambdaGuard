@@ -1,0 +1,79 @@
+{
+  "runs": [
+    {
+      "tool": {
+        "driver": {
+          "name": "JavaScript Source Analyzer",
+          "version": "1.0.0-scan",
+          "fullName": "JavaScript Source Analyzer"
+        }
+      },
+      "conversion": {
+        "tool": {
+          "driver": {
+            "name": "@ShiftLeft/sast-scan"
+          }
+        },
+        "invocation": {
+          "arguments": [
+            "--json",
+            "--output",
+            "/app/reports/source-js-report.json",
+            "/app/bad/payloads/cookie.js",
+            "/app/bad/payloads/keylogger.js",
+            "/app/bad/payloads/payload.js",
+            "/app/good/payloads/cookie.js",
+            "/app/good/payloads/keylogger.js",
+            "/app/good/payloads/payload.js"
+          ],
+          "executionSuccessful": true,
+          "commandLine": "--json --output /app/reports/source-js-report.json /app/bad/payloads/cookie.js /app/bad/payloads/keylogger.js /app/bad/payloads/payload.js /app/good/payloads/cookie.js /app/good/payloads/keylogger.js /app/good/payloads/payload.js",
+          "endTimeUtc": "2020-11-03T07:57:19Z",
+          "workingDirectory": {
+            "uri": "file:///home/ec2-user/vulnerableapps/vulpy"
+          }
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true,
+          "endTimeUtc": "2020-11-03T07:57:19Z",
+          "workingDirectory": {
+            "uri": "file:///home/ec2-user/vulnerableapps/vulpy"
+          }
+        }
+      ],
+      "properties": {
+        "metrics": {
+          "total": 0,
+          "critical": 0,
+          "high": 0,
+          "medium": 0,
+          "low": 0
+        }
+      },
+      "results": [],
+      "automationDetails": {
+        "description": {
+          "text": "Static Analysis Security Test results using @ShiftLeft/sast-scan"
+        },
+        "guid": "5169049b-e688-47ae-9b23-e5f8fcbc2412"
+      },
+      "versionControlProvenance": [
+        {
+          "branch": "master",
+          "repositoryUri": "https://github.com/fportantier/vulpy",
+          "revisionId": "5249cc8b05a1c37f6b2f757b1cf16a509c327122"
+        }
+      ]
+    }
+  ],
+  "version": "2.1.0",
+  "$schema": "https://raw.githubusercontent.com/oasis-tcs/sarif-spec/master/Schemata/sarif-schema-2.1.0.json",
+  "inlineExternalProperties": [
+    {
+      "guid": "5169049b-e688-47ae-9b23-e5f8fcbc2412",
+      "runGuid": "30851219-8a74-459c-ba22-ce15239ebc16"
+    }
+  ]
+}

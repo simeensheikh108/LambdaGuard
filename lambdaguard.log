@@ -1,8 +1,0 @@
-[2020-10-27 16:36] [Invalid SonarQube configuration]
-Traceback (most recent call last):
-  File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/security/Scan.py", line 43, in __init__
-    self.sonarqube = SonarQube(self.args.sonarqube, self.args.output)
-  File "/home/ec2-user/.local/lib/python3.7/site-packages/lambdaguard/security/SonarQube.py", line 49, in __init__
-    raise FileNotFoundError('SonarQube config file not found: {}'.format(config))
-FileNotFoundError: SonarQube config file not found: config.json
-
